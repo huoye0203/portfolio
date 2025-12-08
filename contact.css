@@ -1,0 +1,40 @@
+/* resetting rules  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+.container {
+  width: 80%;
+  margin: 100px auto;
+  padding: 50px;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #eeeeee;
+  color: #000;
+}
+.container h1 {
+  font-family: "Inter", sans-serif;
+  border-bottom: 15px;
+  margin: 20px 0;
+}
+
+/* a {
+  color: azure;
+}
+h1 {
+  color: #f7f7f7;
+  font-family: "Inter", sans-serif;
+}
+form div label {
+  font-family: "Inter", sans-serif;
+  color: #f7f7f7;
+  padding-bottom: 20px;
+}
+form div input {
+  font-family: "JetBrains Mono", monospace;
+  padding: 20px auto;
+} */

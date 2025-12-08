@@ -38,14 +38,9 @@ nav a {
 }
 
 /* about-me section  */
-#about_me,
-#skills,
-#certificates,
-#projects,
-#contact,
-footer {
-  font-family: "JetBrains Mono", monospace;
-  width: 80%;
+#about_me {
+  /* border: 2px solid #000;  */
+  width: 90%;
   margin: 0 auto;
   padding: 20px 0;
   color: #f7f7f7;
@@ -76,6 +71,15 @@ footer {
   font-family: "JetBrains Mono", monospace;
 }
 /* skills section  */
+#skills,
+#certificates,
+#projects,
+#contact {
+  /* border: 2px solid black;  */
+  width: 90%;
+  margin: 20px auto;
+  font-family: "JetBrains Mono", monospace;
+}
 
 #skills ul,
 #projects ol {
@@ -86,6 +90,13 @@ footer {
 }
 
 /* certificates section  */
+#certificates {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+  margin-left: 20px;
+}
+
 #certification table tr,
 th,
 td {
@@ -93,10 +104,23 @@ td {
 }
 
 /* projects section */
+#projects {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+}
 
 /* contact section  */
+#contact {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+}
 
 /* footer section  */
 footer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
   text-align: center;
 }
