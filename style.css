@@ -1,0 +1,103 @@
+/* resetting rules  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #1e2a32;
+}
+
+/* header  */
+header {
+  /* border: 2px solid #000;  */
+  color: #f7f7f7;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* nav section  */
+nav {
+  /* border: 2px solid #000;  */
+  background-color: #1e2a32;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "JetBrains Mono", monospace;
+}
+nav a {
+  /* border: 1px solid #000;  */
+  color: #f7f7f7;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* about-me section  */
+#about_me {
+  /* border: 2px solid #000;  */
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #f7f7f7;
+}
+#about_me h2,
+#skills h2,
+#projects h2,
+#contact h2,
+#certificates h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #f7f7f7;
+  margin: 20px 0;
+}
+#about_me p {
+  font-family: "JetBrains Mono", monospace;
+}
+/* skills section  */
+#skills {
+  /* border: 2px solid black;  */
+  width: 90%;
+  margin: 20px auto;
+  font-family: "JetBrains Mono", monospace;
+}
+#skills ul {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+  margin-left: 20px;
+}
+
+/* certificates section  */
+#certificates {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+  margin-left: 20px;
+}
+
+/* projects section */
+#projects {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+}
+
+/* contact section  */
+#contact {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+}
+
+/* footer section  */
+footer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.2rem;
+  color: #f7f7f7;
+  text-align: center;
+}
