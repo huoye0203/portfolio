@@ -8,6 +8,9 @@
 body {
   background-color: #1e1e1e;
 }
+h1 {
+  font-family: "Inter", sans-serif;
+}
 .container {
   width: 80%;
   margin: 100px auto;
@@ -19,22 +22,27 @@ body {
 .container h1 {
   font-family: "Inter", sans-serif;
   border-bottom: 15px;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
-/* a {
-  color: azure;
-}
-h1 {
-  color: #f7f7f7;
+.container label {
   font-family: "Inter", sans-serif;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
 }
-form div label {
-  font-family: "Inter", sans-serif;
-  color: #f7f7f7;
-  padding-bottom: 20px;
+.container input {
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
 }
-form div input {
-  font-family: "JetBrains Mono", monospace;
-  padding: 20px auto;
-} */
+.form {
+}
+
+.big {
+  font-size: 3rem;
+  color: chocolate;
+  font-style: italic;
+}
